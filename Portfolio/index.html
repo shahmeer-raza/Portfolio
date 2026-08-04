@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>shahmeer@portfolio ~ </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">shahmeer<span class="blink">@</span>portfolio:~$</div>
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="home">
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="terminal-title">bash</span>
+    </div>
+    <div class="terminal-body">
+      <p><span class="prompt">$</span> whoami</p>
+      <p class="output">Shahmeer Raza</p>
+      <p><span class="prompt">$</span> cat role.txt</p>
+      <p class="output" id="typewriter"></p>
+      <p><span class="prompt">$</span> <span class="cursor">▊</span></p>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section">
+  <h2><span class="tag">01</span> about</h2>
+  <p class="about-text">
+    I'm Shahmeer Raza, a BS Cyber Security student building a foundation in
+    networking, Linux, and system security. I run Arch Linux with a hand-tuned
+    i3wm setup, and I'm currently exploring how AI intersects with security —
+    from automating recon to understanding AI-driven threats and defenses.
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h2><span class="tag">02</span> skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Git</div>
+    <div class="skill-card">GitHub</div>
+    <div class="skill-card">Linux</div>
+    <div class="skill-card">Cyber Security Basics</div>
+    <div class="skill-card">Networking</div>
+    <div class="skill-card">AI</div>
+    <div class="skill-card">Vercel</div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2><span class="tag">03</span> projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>i3wm Dotfiles</h3>
+      <p>A hand-maintained i3 window manager configuration for Arch Linux — custom keybindings, status bar, and workflow tuning.</p>
+      <a href="https://github.com/shahmeer-raza" target="_blank">view →</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2><span class="tag">04</span> contact</h2>
+  <div class="terminal contact-terminal">
+    <div class="terminal-bar">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="terminal-title">contact.sh</span>
+    </div>
+    <div class="terminal-body">
+      <p><span class="prompt">$</span> cat email.txt</p>
+      <p class="output"><a href="mailto:shahmeerrazaarain@gmail.com">shahmeerrazaarain@gmail.com</a></p>
+      <p><span class="prompt">$</span> cat github.txt</p>
+      <p class="output"><a href="https://github.com/shahmeer-raza" target="_blank">github.com/shahmeer-raza</a></p>
+      <p><span class="prompt">$</span> cat linkedin.txt</p>
+      <p class="output"><a href="https://www.linkedin.com/in/shahmeer-raza-991636425/" target="_blank">linkedin.com/in/shahmeer-raza</a></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year"></span> Shahmeer Raza — built with HTML, CSS &amp; JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
