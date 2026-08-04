@@ -104,7 +104,47 @@ body {
 }
 .about-text { color: var(--text-dim); max-width: 65ch; }
 
+/* Education Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.timeline-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.timeline-item:hover { transform: translateY(-2px); }
+.timeline-year {
+  color: var(--green);
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+.timeline-item h3 { color: var(--text); font-size: 1.05rem; margin-bottom: 0.3rem; }
+.timeline-item p { color: var(--text-dim); font-size: 0.88rem; }
+
+.status {
+  font-size: 0.7rem;
+  color: var(--green);
+  border: 1px solid var(--green-dim);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-left: 0.4rem;
+}
+
 /* Skills */
+.skill-subheading {
+  color: var(--green);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1.6rem 0 0.8rem;
+}
+.skill-subheading:first-of-type { margin-top: 0; }
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
