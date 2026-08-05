@@ -182,6 +182,8 @@ body {
 .project-card a { color: var(--text); font-size: 0.85rem; text-decoration: none; }
 .project-card a:hover { color: var(--green); }
 
+.certs-grid { grid-template-columns: repeat(2, 1fr); }
+
 /* Contact */
 .contact-terminal { max-width: 640px; }
 .contact-terminal a { color: var(--green); text-decoration: none; }
@@ -200,6 +202,7 @@ footer {
   .section { padding: 2rem 1.5rem; }
   .skills-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
   .projects-grid { grid-template-columns: 1fr; }
+  .certs-grid { grid-template-columns: 1fr; }
 }
 
 /* Mobile */
